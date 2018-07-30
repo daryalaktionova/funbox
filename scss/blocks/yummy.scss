@@ -151,6 +151,9 @@
     .yummy__item-wrapper:before {
         background-image: linear-gradient(135deg,transparent 5%,$disabled 0);
     }
+    .yummy__item-description {
+        color: #ffff66;
+    }
 }
 
 .yummy_item--selected {
