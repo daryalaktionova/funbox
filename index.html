@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="ru-Ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ты сегодня покормил кота?</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<main class="wrapper">
+    <section class="yummy">
+        <h1 class="caption">Ты сегодня покормил кота?</h1>
+        <div class="yummy__wrapper">
+            <article class="yummy__item">
+                <div class="yummy__item-wrapper">
+                    
+                        <svg class="yummy__item-svg"> 
+                            <mask id='m' fill='#fff'>
+                                <rect id='r' width='100%' height='100%'/>
+                                <polygon points="0 0, 40 0, 0 40" fill="#000" id='c' stroke-width="5" />
+                            </mask>
+                            <use xlink:href='#r' fill='#1698d9' mask='url(#m)'/>
+                        </svg>
+                        <svg class="yummy__item-svg-bg"> 
+                                <mask id='p' fill='#fff'>
+                                    <rect id='r' width='100%' height='100%'/>
+                                    <polygon points="0 0, 40 0, 0 40" fill="#000" id='c' stroke-width="5" />
+                                </mask>
+                                <use xlink:href='#r' fill='#fff' mask='url(#p)'/>
+                        </svg>
+
+                        <img class="yummy__item-image" src="/images/cat.png" alt="кот">
+                        <div class="yummy__text-wrapper">
+                            <span class="yummy__description">Сказочное заморское яство</span>
+                            <h2 class="yummy__name">Нямушка</h2>
+                            <span class="yummy__taste">с фуа-гра</span>
+                            <ul class="yummy__advantages">
+                                <li class="yummy__advantage"><b>10 </b>порций</li>
+                                <li class="yummy__advantage">мышь в подарок</li>
+                            </ul>
+                        </div>
+                        <div class="yummy__weight">
+                                <div class="yummy__weight-numeral">0,5</div>
+                                <span class="yummy__weight-measure">кг</span>
+                        </div>
+                </div>
+                <div class="yummy__item-description">Чего сидишь? порадуй котэ, <a href="#" class="action">купи.</a></div>
+            </article>
+            <article class="yummy__item yummy_item--selected">
+                <div class="yummy__item-wrapper">
+                    
+                        <svg class="yummy__item-svg"> 
+                                <mask id='n' fill='#fff'>
+                                    <rect id='r' width='100%' height='100%'/>
+                                    <polygon points="0 0, 40 0, 0 40" fill="#000" id='c' stroke-width="5" />
+                                </mask>
+                                <use xlink:href='#r' fill='#1698d9' mask='url(#n)'/>
+                        </svg>
+                        <svg class="yummy__item-svg-bg"> 
+                                <mask id='s' fill='#fff'>
+                                    <rect id='r' width='100%' height='100%'/>
+                                    <polygon points="0 0, 40 0, 0 40" fill="#000" id='c' stroke-width="5" />
+                                </mask>
+                                <use xlink:href='#r' fill='#fff' mask='url(#s)'/>
+                        </svg>
+                        <img class="yummy__item-image" src="/images/cat.png" alt="кот">
+                    <div class="yummy__text-wrapper">
+                        <span class="yummy__description">Сказочное заморское яство</span>
+                        <h2 class="yummy__name">Нямушка</h2>
+                        <span class="yummy__taste">с рыбой</span>
+                        <ul class="yummy__advantages">
+                            <li class="yummy__advantage"><b>40 </b>порций</li>
+                            <li class="yummy__advantage"><b>2 </b>мыши в подарок</li>
+                        </ul>
+                    </div>
+                    <div class="yummy__weight">
+                            <div class="yummy__weight-numeral">2</div>
+                            <span class="yummy__weight-measure">кг</span>
+                    </div>
+                </div>
+                <div class="yummy__item-description">Головы щучьи с чесноком да свежайшая сёмгушка.</div>
+            </article>
+            <article class="yummy__item yummy_item--disabled">
+                <div class="yummy__item-wrapper">
+                        
+                        <svg class="yummy__item-svg"> 
+                                <mask id='o' fill='#fff'>
+                                    <rect id='r' width='100%' height='100%'/>
+                                    <polygon points="0 0, 40 0, 0 40" fill="#000" id='c' stroke-width="5" />
+                                </mask>
+                                <use xlink:href='#r' fill='#1698d9' mask='url(#o)'/>
+                        </svg>
+                        <svg class="yummy__item-svg-bg"> 
+                                <mask id='t' fill='#fff'>
+                                    <rect id='r' width='100%' height='100%'/>
+                                    <polygon points="0 0, 40 0, 0 40" fill="#000" id='c' stroke-width="5" />
+                                </mask>
+                                <use xlink:href='#r' fill='#fff' mask='url(#t)'/>
+                        </svg>
+                        <img class="yummy__item-image" src="/images/cat.png" alt="кот">
+                    <div class="yummy__text-wrapper">
+                        <span class="yummy__description">Сказочное заморское яство</span>
+                        <h2 class="yummy__name">Нямушка</h2>
+                        <span class="yummy__taste">с фуа-гра</span>
+                        <ul class="yummy__advantages">
+                            <li class="yummy__advantage"><b>100 </b>порций</li>
+                            <li class="yummy__advantage"><b>5 </b>мышей в подарок</li>
+                            <li class="yummy__advantage">заказчик доволен</li>
+                        </ul>
+                    </div>
+                    <div class="yummy__weight">
+                            <div class="yummy__weight-numeral">5</div>
+                            <span class="yummy__weight-measure">кг</span>
+                    </div>
+                </div>
+                <div class="yummy__item-description">Печалька. с курой закончился.</div>
+            </article>
+        </div>
+    </section>
+</main>
+</body>
+</html>

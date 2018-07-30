@@ -1,0 +1,112 @@
+.yummy {
+    width: 95%;
+    height: 86%;
+    margin: 0 auto;
+}
+
+.yummy__wrapper {
+    margin: 0 auto;
+    width: 78%;
+    margin-top: 30px;
+    color: $white;
+    display: flex;
+    justify-content: space-around;
+    height: 80%;
+}
+
+.yummy__item {
+    color: $black;
+    height: 100%;
+    margin-right: 7%;
+    flex: 1;
+}
+.yummy__item:last-child {
+    margin-right: 0;
+}
+.yummy__item-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 94%;
+    .yummy__item-svg {
+        position: absolute; 
+        width: 100%; 
+        height: 100%;
+        z-index: 0;
+        border-radius: 3px;
+    }
+    .yummy__item-svg-bg {
+        position: absolute; 
+        width: 96%; 
+        height: 96%;
+        z-index: 1;
+        border-radius: 3px;
+    }
+}
+
+.yummy__text-wrapper {
+    position: relative;
+    z-index: 3;
+    padding: 10% 45px 0 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    align-self: flex-start;
+}
+
+.yummy__description {
+    color: $gray;
+}
+
+.yummy__name {
+    font-size: 48px;
+    margin-top: 10%;
+    font-weight: bold;
+}
+
+.yummy__taste {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.yummy__advantages {
+    margin-top: 26px;
+    color: $gray;
+}
+.yummy__weight {
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   background-color: $cyan;
+   color: $white;
+   border-radius: 50%;
+   width: 5rem;
+   height: 5rem;
+   flex-direction: column;
+   z-index: 3;
+   bottom: 4%;
+   right: 4%;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   line-height: 1;
+}
+.yummy__item-image {
+    position: absolute;
+    z-index: 2;
+    bottom: 2%;
+    left: -8%;
+    width: 100%;
+    -webkit-clip-path: inset(0 0 0% 10% round 3px);
+    clip-path: inset(0 0 0 10% round 3px);
+}
+
+.yummy__weight-numeral {
+    font-size: 42px;
+}
+
+.yummy__item-description {
+    text-align: center;
+    color: $white;
+    margin-top: 1rem;
+}
