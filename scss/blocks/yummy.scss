@@ -42,6 +42,7 @@
     transform: scale(1.02,1.015);
     background-image: linear-gradient(135deg,transparent 5%,$cyan 0);
     border-radius: 0 10px 10px 10px;
+    transition: 0.2s;
 }
 
 .yummy__text-wrapper {
@@ -94,6 +95,7 @@
    right: 4%;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    line-height: 1;
+   transition: 0.2s;
 }
 .yummy__item-image {
     position: absolute;
@@ -145,6 +147,11 @@
     .yummy__weight {
         background-color: $disabled;
     }
+}
+.yummy__label--selected{
+   .yummy__weight {
+       background-color: $magenta;
+   }
 }
 
 .yummy_item--disabled {

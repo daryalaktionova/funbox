@@ -4,13 +4,15 @@ items.forEach((item) => {
     const buy = item.querySelector('.yummy__item-description');
     const card = item.querySelector('.yummy__label');
     
-    const handlerSatusProduct = () => {
+    const selectItems = () => {
         if (!checkbox.hasAttribute('checked')) {
           checkbox.setAttribute('checked', true);
           item.classList.add('yummy_item--selected');
+          card.classList.add('yummy__label--selected');
         } else {
           checkbox.removeAttribute('checked');
           item.classList.remove('yummy_item--selected');
+          card.classList.remove('yummy__label--selected');
         }
       };
 
@@ -19,5 +21,5 @@ items.forEach((item) => {
         item.classList.add('yummy_item--disabled');
         buy.innerHTML = item.dataset.disabled;
       }
-    
+      checkbox.addEventListener('change', selectItems);
     });
