@@ -72,6 +72,10 @@
 .yummy__advantages {
     margin-top: 26px;
     color: $gray;
+    font-weight: 200;
+    b {
+        font-weight: 600;
+    }
 }
 .yummy__weight {
    position: absolute;
@@ -109,4 +113,6 @@
     text-align: center;
     color: $white;
     margin-top: 1rem;
+    font-weight: 200;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
