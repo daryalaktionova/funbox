@@ -152,3 +152,9 @@
         background-image: linear-gradient(135deg,transparent 5%,$disabled 0);
     }
 }
+
+.yummy_item--selected {
+    .yummy__item-wrapper:before {
+        background-image: linear-gradient(135deg,transparent 5%,$magenta 0);
+    }
+}
