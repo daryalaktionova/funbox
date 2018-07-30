@@ -15,24 +15,10 @@
         <h1 class="caption">Ты сегодня покормил кота?</h1>
         <div class="yummy__wrapper">
             <article class="yummy__item">
+                <input type="checkbox" id="product1" class="yummy__input">
                 <div class="yummy__item-wrapper">
-                    
-                        <svg class="yummy__item-svg"> 
-                            <mask id='m' fill='#fff'>
-                                <rect id='r' width='100%' height='100%'/>
-                                <polygon points="0 0, 40 0, 0 40" fill="#000" id='c' stroke-width="5" />
-                            </mask>
-                            <use xlink:href='#r' fill='#1698d9' mask='url(#m)'/>
-                        </svg>
-                        <svg class="yummy__item-svg-bg"> 
-                                <mask id='p' fill='#fff'>
-                                    <rect id='r' width='100%' height='100%'/>
-                                    <polygon points="0 0, 40 0, 0 40" fill="#000" id='c' stroke-width="5" />
-                                </mask>
-                                <use xlink:href='#r' fill='#fff' mask='url(#p)'/>
-                        </svg>
-
-                        <img class="yummy__item-image" src="images/cat.png" alt="кот">
+                    <label for="product1" class="yummy__label">
+                        
                         <div class="yummy__text-wrapper">
                             <span class="yummy__description">Сказочное заморское яство</span>
                             <h2 class="yummy__name">Нямушка</h2>
@@ -46,27 +32,16 @@
                                 <div class="yummy__weight-numeral">0,5</div>
                                 <span class="yummy__weight-measure">кг</span>
                         </div>
+                    </label>
                 </div>
                 <div class="yummy__item-description">Чего сидишь? порадуй котэ, <a href="#" class="action">купи.</a></div>
             </article>
-            <article class="yummy__item yummy_item--selected">
+            <article class="yummy__item">
+                <input type="checkbox" id="product2" class="yummy__input">
                 <div class="yummy__item-wrapper">
                     
-                        <svg class="yummy__item-svg"> 
-                                <mask id='n' fill='#fff'>
-                                    <rect id='r' width='100%' height='100%'/>
-                                    <polygon points="0 0, 40 0, 0 40" fill="#000" id='c' stroke-width="5" />
-                                </mask>
-                                <use xlink:href='#r' fill='#1698d9' mask='url(#n)'/>
-                        </svg>
-                        <svg class="yummy__item-svg-bg"> 
-                                <mask id='s' fill='#fff'>
-                                    <rect id='r' width='100%' height='100%'/>
-                                    <polygon points="0 0, 40 0, 0 40" fill="#000" id='c' stroke-width="5" />
-                                </mask>
-                                <use xlink:href='#r' fill='#fff' mask='url(#s)'/>
-                        </svg>
-                        <img class="yummy__item-image" src="images/cat.png" alt="кот">
+                        <label for="product2" class="yummy__label">
+                        
                     <div class="yummy__text-wrapper">
                         <span class="yummy__description">Сказочное заморское яство</span>
                         <h2 class="yummy__name">Нямушка</h2>
@@ -80,27 +55,16 @@
                             <div class="yummy__weight-numeral">2</div>
                             <span class="yummy__weight-measure">кг</span>
                     </div>
+                </label>
                 </div>
-                <div class="yummy__item-description">Головы щучьи с чесноком да свежайшая сёмгушка.</div>
+                <div class="yummy__item-description">Чего сидишь? порадуй котэ, <a href="#" class="action">купи.</a></div>
             </article>
             <article class="yummy__item yummy_item--disabled">
+                <input type="checkbox" id="product3" class="yummy__input">
                 <div class="yummy__item-wrapper">
                         
-                        <svg class="yummy__item-svg"> 
-                                <mask id='o' fill='#fff'>
-                                    <rect id='r' width='100%' height='100%'/>
-                                    <polygon points="0 0, 40 0, 0 40" fill="#000" id='c' stroke-width="5" />
-                                </mask>
-                                <use xlink:href='#r' fill='#1698d9' mask='url(#o)'/>
-                        </svg>
-                        <svg class="yummy__item-svg-bg"> 
-                                <mask id='t' fill='#fff'>
-                                    <rect id='r' width='100%' height='100%'/>
-                                    <polygon points="0 0, 40 0, 0 40" fill="#000" id='c' stroke-width="5" />
-                                </mask>
-                                <use xlink:href='#r' fill='#fff' mask='url(#t)'/>
-                        </svg>
-                        <img class="yummy__item-image" src="images/cat.png" alt="кот">
+                        <label for="product3" class="yummy__label yummy__label--disabled">
+                        
                     <div class="yummy__text-wrapper">
                         <span class="yummy__description">Сказочное заморское яство</span>
                         <h2 class="yummy__name">Нямушка</h2>
@@ -115,8 +79,9 @@
                             <div class="yummy__weight-numeral">5</div>
                             <span class="yummy__weight-measure">кг</span>
                     </div>
+                    </label>
                 </div>
-                <div class="yummy__item-description">Печалька. с курой закончился.</div>
+                <div class="yummy__item-description">Чего сидишь? порадуй котэ, <a href="#" class="action">купи.</a></div>
             </article>
         </div>
     </section>
